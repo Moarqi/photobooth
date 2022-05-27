@@ -464,7 +464,7 @@ general_setup() {
 start_install() {
     info "### Now we are going to install Photobooth."
     if [ $GIT_INSTALL = true ]; then
-        git clone https://github.com/andi34/photobooth $INSTALLFOLDER
+        git clone https://github.com/Moarqi/photobooth $INSTALLFOLDER
         cd $INSTALLFOLDERPATH
 
         info "### We are installing Photobooth via git."
