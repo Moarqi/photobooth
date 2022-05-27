@@ -16,9 +16,9 @@ resources/js/*
 !resources/js/README.md
 src/sass/custom_chromakeying.css
 src/sass/custom_live_chromakeying.css
-src/sass/custom_style.scss
+# src/sass/custom_style.scss
 stats
-template/custom.template.php
+# template/custom.template.php
 trash
 vendor/simple-translator/
 .sass-cache

@@ -1151,7 +1151,7 @@ const photoBooth = (function () {
         } else {
             api.thrill(PhotoStyle.PHOTO);
         }
-        $('.newpic').blur();
+        $('.newpic').trigger("blur");
     });
 
     $('.takeCollage, .newcollage').on('click', function (e) {
@@ -1163,7 +1163,7 @@ const photoBooth = (function () {
             api.thrill(PhotoStyle.COLLAGE);
         }
 
-        $('.newcollage').blur();
+        $('.newcollage').trigger("blur");
     });
 
     $('#mySidenav .closebtn').on('click', function (e) {

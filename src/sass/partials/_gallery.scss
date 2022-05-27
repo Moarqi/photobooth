@@ -47,11 +47,22 @@
     }
   }
 
+  &__footer {
+    width: 100%;
+    // position: absolute;
+    align-self: flex-end;
+    bottom: 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background: $mainColor;
+  }
+
   &__body {
     display: flex;
     flex-wrap: wrap;
-    overflow-y: auto;
-    justify-content: center;
+    overflow-y: scroll;
+    justify-content: left;
 
     a {
       display: block;

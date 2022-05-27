@@ -3,6 +3,9 @@ version: "3.9"
 services:
   photobooth:
     build: .
+    # privileged: true
+    devices:
+      - '/dev/bus/usb/005:/dev/bus/usb/005'
     volumes:
       - ./:/app
       - /app/resources/css/
