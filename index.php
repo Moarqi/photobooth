@@ -31,7 +31,7 @@ if (
 
     $imagelist = $config['gallery']['newest_first'] === true ? array_reverse($images) : $images;
 
-    if ($config['ui']['style'] === 'modern') {
+    if ($config['ui']['style'] === 'modern' || $config['ui']['style'] === 'custom') {
         $btnClass1 = 'round-btn';
         $btnClass2 = 'round-btn';
         $galleryIcon = 'fa-picture-o';
