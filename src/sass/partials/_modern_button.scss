@@ -1,19 +1,26 @@
 .round-btn {
   width: 5em;
   height: 5em;
-  border-radius: 50%;
-  border: 2px solid $borderColor;
-  background: radial-gradient(grey, $mainColor, $hoverColor);
+  border-radius: 15%;
+  // border: 2px solid $borderColor;
+  background: #1d1d1d;
   display: inline-block;
   color: $buttonFontColor;
   text-decoration: none;
-  margin: auto;
+  // margin: auto;
   text-align: center;
   font-size: 1em;
+  flex: none;
   position: relative;
   z-index: 10;
   span {
-    display: none;
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   &:active,
   &:focus,
@@ -24,7 +31,7 @@
     font-size: 1.5em;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);

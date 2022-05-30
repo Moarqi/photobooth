@@ -49,7 +49,7 @@
 								<?php endif; ?>
 							</div>
 							<?php endif; ?>
-							<div class="rotarygroup">
+							<div class="buttongroup">
 							<?php if($config['button']['show_cups']): ?>
 							<a id="cups-button" class="round-btn cups-button rotaryfocus" href="#" target="newwin"><i class="fa fa-print" aria-hidden="true"></i> <span>CUPS</span></a>
 							<?php endif; ?>

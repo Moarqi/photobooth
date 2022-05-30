@@ -67,17 +67,18 @@ if (
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-	<link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+	<!-- <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" /> -->
 	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css" />
 	<link rel="stylesheet" href="vendor/PhotoSwipe/dist/photoswipe.css" />
 	<link rel="stylesheet" href="vendor/PhotoSwipe/dist/default-skin/default-skin.css" />
+	<!-- <link rel="stylesheet" href="vencor/pico/pico.min.css" /> -->
 	<link rel="stylesheet" href="resources/css/<?php echo $config['ui']['style']; ?>_style.css" />
 	<?php if ($config['gallery']['bottom_bar']): ?>
 	<link rel="stylesheet" href="resources/css/photoswipe-bottom.css" />
 	<?php endif; ?>
-	<?php if ($config['ui']['rounded_corners'] && $config['ui']['style'] === 'classic'): ?>
+	<!-- <?php if ($config['ui']['rounded_corners'] && $config['ui']['style'] === 'classic'): ?>
 	<link rel="stylesheet" href="resources/css/rounded.css" />
-	<?php endif; ?>
+	<?php endif; ?> -->
 	<?php if (is_file("private/overrides.css")): ?>
 	<link rel="stylesheet" href="private/overrides.css" />
 	<?php endif; ?>
