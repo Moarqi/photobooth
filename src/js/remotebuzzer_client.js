@@ -193,7 +193,7 @@ function initRemoteBuzzerFromDOM() {
         api.takePicture = function () {
             if (this.enabled()) {
                 $('.resultInner').removeClass('show');
-                photoBooth.thrill('photo');
+                photoBooth.thrill('photo', 0, true);
             }
         };
 
